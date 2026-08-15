@@ -3,16 +3,46 @@ import Greet from './component/Greet';
 import Hello from './component/Hello';
 import Message from './component/Message';
 import Welcome from './component/Welcome';
+import Counter from './component/Counter';
+import FunctionClick from './component/FunctionClick';
+import ClassClick from './component/ClassClick';
+import EventBind from './component/EventBind';
+import ParentComponent from './component/ParentComponent';
 
 function App() {
   return (
     <div className="App">
+      <ParentComponent/>
+
+    {/* <EventBind/> */}
 
 
-      <Message/>
-  {/* <Greet name="Alice" designation="Engineer"/>
-  <Greet name="Bob" designation="Designer"/>
-  <Greet name="Charlie" designation="Manager"/> */}
+
+      {/* <FunctionClick/>
+      <ClassClick /> */}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{/* <Counter/> */}
+      {/* <Message/> */}
+      {/* <Greet name="Alice" designation="Developer"/> */}
+  {/* <Greet name="Bob" designation="Designer"/>
+  <Greet name="Charlie" designation="Manager"/>  */}
   {/* <Welcome name="David" designation="Engineer"/>
   <Welcome name="Eve" designation="Designer"/>
   <Welcome name="Frank" designation="Manager"/> */}
