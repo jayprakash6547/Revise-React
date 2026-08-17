@@ -11,11 +11,13 @@ import ParentComponent from "./component/ParentComponent";
 import NameList from "./component/NameList";
 import Form from "./component/Form";
 import LifecycleA from "./component/LifecycleA";
+import FragmentDemo from "./component/FragmentDemo";
 
 function App() {
   return (
     <div className="App">
-      <LifecycleA />
+      <FragmentDemo />
+      {/* <LifecycleA /> */}
       {/* <Form /> */}
       {/* <NameList /> */}
       {/* <ParentComponent /> */}
