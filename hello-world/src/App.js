@@ -13,11 +13,15 @@ import Form from "./component/Form";
 import LifecycleA from "./component/LifecycleA";
 import FragmentDemo from "./component/FragmentDemo";
 import RefsDemo from "./component/RefsDemo";
+import Input from "./component/Input";
+import FocusInput from "./component/FocusInput";
 
 function App() {
   return (
     <div className="App">
-      <RefsDemo />
+      <FocusInput />
+      {/* <Input /> */}
+      {/* <RefsDemo /> */}
       {/* <FragmentDemo /> */}
       {/* <LifecycleA /> */}
       {/* <Form /> */}
