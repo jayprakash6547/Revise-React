@@ -10,11 +10,13 @@ import EventBind from "./component/EventBind";
 import ParentComponent from "./component/ParentComponent";
 import NameList from "./component/NameList";
 import Form from "./component/Form";
+import LifecycleA from "./component/LifecycleA";
 
 function App() {
   return (
     <div className="App">
-      <Form />
+      <LifecycleA />
+      {/* <Form /> */}
       {/* <NameList /> */}
       {/* <ParentComponent /> */}
 
