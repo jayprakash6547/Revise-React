@@ -12,11 +12,13 @@ import NameList from "./component/NameList";
 import Form from "./component/Form";
 import LifecycleA from "./component/LifecycleA";
 import FragmentDemo from "./component/FragmentDemo";
+import RefsDemo from "./component/RefsDemo";
 
 function App() {
   return (
     <div className="App">
-      <FragmentDemo />
+      <RefsDemo />
+      {/* <FragmentDemo /> */}
       {/* <LifecycleA /> */}
       {/* <Form /> */}
       {/* <NameList /> */}
