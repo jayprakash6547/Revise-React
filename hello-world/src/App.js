@@ -15,20 +15,18 @@ import FragmentDemo from "./component/FragmentDemo";
 import RefsDemo from "./component/RefsDemo";
 import Input from "./component/Input";
 import FocusInput from "./component/FocusInput";
+import Hero from "./component/Hero";
+import ErrorBoundary from "./component/ErrorBoundary";
 
 function App() {
   return (
     <div className="App">
-      <FocusInput />
-      {/* <Input /> */}
-      {/* <RefsDemo /> */}
-      {/* <FragmentDemo /> */}
-      {/* <LifecycleA /> */}
-      {/* <Form /> */}
-      {/* <NameList /> */}
-      {/* <ParentComponent /> */}
+      {/* <ErrorBoundary>
+        <Hero heroName="Batman" />
+        <Hero heroName="Superman" />
 
-      {/* <EventBind/> */}
+        <Hero heroName="Joker" />
+      </ErrorBoundary> */}
 
       {/* <FunctionClick/>
       <ClassClick /> */}
