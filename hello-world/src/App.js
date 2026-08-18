@@ -17,10 +17,16 @@ import Input from "./component/Input";
 import FocusInput from "./component/FocusInput";
 import Hero from "./component/Hero";
 import ErrorBoundary from "./component/ErrorBoundary";
+import ClickCounter from "./component/ClickCounter";
+import HoverCounter from "./component/HoverCounter";
 
 function App() {
   return (
     <div className="App">
+      <ClickCounter />
+      <HoverCounter/>
+
+
       {/* <ErrorBoundary>
         <Hero heroName="Batman" />
         <Hero heroName="Superman" />
