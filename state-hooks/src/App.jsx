@@ -4,13 +4,15 @@ import './App.css'
 import ClassCounter from './Components/ClassCounter'
 import HookCounter from './Components/HookCounter'
 import HookCounterTwo from './HookCounterTwo'
+import HookCounterThree from './HookCounterThree'
 
 function App() {
   
 
   return (
     <>
-    <HookCounterTwo />
+    <HookCounterThree />
+    {/* <HookCounterTwo /> */}
     {/* <ClassCounter />
     <HookCounter /> */}
     </>
