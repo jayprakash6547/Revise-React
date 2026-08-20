@@ -23,8 +23,9 @@ import HoverCounter from "./component/HoverCounter";
 function App() {
   return (
     <div className="App">
-      <ClickCounter />
-      <HoverCounter/>
+      
+      {/* <ClickCounter />
+      <HoverCounter/> */}
 
 
       {/* <ErrorBoundary>
